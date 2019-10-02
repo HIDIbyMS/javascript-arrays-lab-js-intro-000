@@ -34,9 +34,9 @@ function prependKitten(name) {
   [...kittens, name];
 }
 
-
+// .slice(0, kittens.length -1) removes last element
 function removeLastKitten() {
-  
+  name.slice(0, kittens.length -1);
 }
 
 // .slice(1) removes element from the beginning of the array
