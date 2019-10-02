@@ -12,8 +12,8 @@ function destructivelyAppendKitten(name){
 // ******
 // .unshift() adds elements to beginning of array - mutates array
 function destructivelyPrependKitten(name){
-  name.unshift();
-  return name;
+  kittens.unshift(name);
+  return kittens;
 }
 
 // .pop() remove element from te end of array
