@@ -29,16 +29,16 @@ function destructivelyRemoveFirstKitten(){
 // ******
 // ["", ...kittens] adds to beginning without mutations
 function appendKitten(name) {
-  [name, ...kittens];
+  return [name, ...kittens];
 }
 
 // ******
 // [...kittens, ""] adds to end without mutations
 function prependKitten(name) {
-  [...kittens, name];
+  return [...kittens, name];
 }
 
-// ******
+
 // .slice(0, kittens.length -1) removes last element
 function removeLastKitten() {
   return kittens.slice(0, kittens.length -1);
