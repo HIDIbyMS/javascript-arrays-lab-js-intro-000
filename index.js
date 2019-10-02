@@ -5,11 +5,13 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 // .push() adds elements to end of array - mutates array
 function destructivelyAppendKitten(name){
   name.push();
+  return name;
 }
 
 // .unshift() adds elements to beginning of array - mutates array
 function destructivelyPrependKitten(name){
   name.unshift();
+  return name;
 }
 
 function destructivelyRemoveLastKitten(){
