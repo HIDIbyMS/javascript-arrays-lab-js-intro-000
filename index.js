@@ -14,12 +14,14 @@ function destructivelyPrependKitten(name){
   return name;
 }
 
+// .pop() remove element from te end of array
 function destructivelyRemoveLastKitten(){
-  
+  kitten.pop();
 }
 
+// .shift() removes element from the beginning of array
 function destructivelyRemoveFirstKitten(){
-  
+  kitten.shift();
 }
 
 function appendKitten(name) {
