@@ -24,12 +24,14 @@ function destructivelyRemoveFirstKitten(){
   kitten.shift();
 }
 
+// ["", ...kittens] adds to beginning without mutations
 function appendKitten(name) {
-  
+  [name, ...kittens];
 }
 
+// [...kittens, ""] adds to end without mutations
 function prependKitten(name) {
-  
+  [...kittens, name];
 }
 
 function removeLastKitten() {
