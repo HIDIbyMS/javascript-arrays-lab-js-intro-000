@@ -16,12 +16,12 @@ function destructivelyPrependKitten(name){
 
 // .pop() remove element from te end of array
 function destructivelyRemoveLastKitten(){
-  kitten.pop();
+  kittens.pop();
 }
 
 // .shift() removes element from the beginning of array
 function destructivelyRemoveFirstKitten(){
-  kitten.shift();
+  kittens.shift();
 }
 
 // ["", ...kittens] adds to beginning without mutations
