@@ -35,7 +35,7 @@ function appendKitten(name) {
 // ******
 // [...kittens, ""] adds to end without mutations
 function prependKitten(name) {
-["", ...kittens]
+  return [...kittens, name];
 }
 
 
