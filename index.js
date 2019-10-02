@@ -2,14 +2,14 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 
 // Add your functions and code here
 
-// ******
+
 // .push() adds elements to end of array - mutates array
 function destructivelyAppendKitten(name){
   kittens.push(name);
   return kittens;
 }
 
-// ******
+
 // .unshift() adds elements to beginning of array - mutates array
 function destructivelyPrependKitten(name){
   kittens.unshift(name);
@@ -26,7 +26,6 @@ function destructivelyRemoveFirstKitten(){
   kittens.shift();
 }
 
-// ******
 
 // [...kittens, ""] adds to end without mutations
 function appendKitten(name) {
@@ -34,7 +33,7 @@ function appendKitten(name) {
  
 }
 
-// ******
+
 // ["", ...kittens] adds to beginning without mutations
 function prependKitten(name) {
    return [name, ...kittens];
