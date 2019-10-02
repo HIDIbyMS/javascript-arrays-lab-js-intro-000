@@ -6,7 +6,7 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 // .push() adds elements to end of array - mutates array
 function destructivelyAppendKitten(name){
   kittens.push(name);
-  return name;
+  return kittens;
 }
 
 // ******
