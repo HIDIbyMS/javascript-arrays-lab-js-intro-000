@@ -47,8 +47,8 @@ function removeLastKitten() {
 // ******
 // .slice(1) removes element from the beginning of the array
 function removeFirstKitten() {
-  return name.slice(1);
-  return name;
+  return kittens.slice(1);
+  
 }
 
 
