@@ -27,15 +27,17 @@ function destructivelyRemoveFirstKitten(){
 }
 
 // ******
-// ["", ...kittens] adds to beginning without mutations
+
+// [...kittens, ""] adds to end without mutations
 function appendKitten(name) {
-  return [name, ...kittens];
+  return [...kittens, name];
+ 
 }
 
 // ******
-// [...kittens, ""] adds to end without mutations
+// ["", ...kittens] adds to beginning without mutations
 function prependKitten(name) {
-  return [...kittens, name];
+   return [name, ...kittens];
 }
 
 
