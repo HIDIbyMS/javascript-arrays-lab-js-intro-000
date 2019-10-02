@@ -34,12 +34,14 @@ function prependKitten(name) {
   [...kittens, name];
 }
 
+
 function removeLastKitten() {
   
 }
 
+// .slice(1) removes element from the beginning of the array
 function removeFirstKitten() {
-  
+  name.slice(1);
 }
 
 
